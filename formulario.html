@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pr-Br">
+<head>
+    <title>Formulario</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        body{
+            color:black;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right,rgb(60, 69, 134),rgb(60, 124, 134));
+        }
+        .box{
+         position:inherit;
+         top:50%;
+         left: 50%;
+         transform: translate();
+         background-color: rgb(0,0.8);
+         padding: 15px;
+         border-radius: 15px;
+         width: 50px;
+
+        }
+ </style>
+    </head>
+    <body>
+        <div class="box">
+            <form action="">
+                <fieldset>
+                    <legend> <p>Formulario/p></legend> 
+                    <br>
+                    <div class="inputBox">
+                        <input type="Text" nome="nome" id="nome "class="inputUser" required>
+                        <label for="nome">Nome Completo</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="email" nome="email"id="email"class="inputUser"required>
+                        <label for="nome">Email</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="tel" nome="telefone"id="telefone"class="inputUser"required>
+                        <label for="nome">Telefone</label>
+                    </div>
+                    <br><Br>
+                    <p>Sexo:</p>
+                    <input type="radio" nome="feminino"id="genero"value="feminino"required>
+                    <label for="feminino">feminino</label>
+                    <input type="radio" nome="masculino"id="genero"value="masculino"required>
+                    <label for="masculino">masculino</label>
+                    <input type="radio" nome="outros"id="genero"value="outros"required>
+                    <label for="outros">Outros</label>
+                    <br><br>
+                    <label for="data-nascimento"><b>data-nascimento:</b></label>    
+                    <div class="inputBox">
+                        <input type="date" nome="data-nascimento" class="inputUser"required>
+                    </div>
+                    <br><br>
+                    <input type="submit" name="submit" id="submit">
+                   </fieldset>
+                </form>
+            </div>
+</body>
+</html>
